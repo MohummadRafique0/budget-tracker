@@ -1,0 +1,94 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e; 
+  color: #e0e0e0; 
+}
+
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.transaction-form {
+  background: #333; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.transaction-form input,
+.transaction-form select,
+.transaction-form button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #555; 
+}
+
+.transaction-form input,
+.transaction-form select {
+  background: #444;
+  color: #e0e0e0; 
+}
+
+.transaction-form button {
+  background: #007bff; 
+  color: #fff; 
+  border: none;
+  cursor: pointer;
+}
+
+.transaction-form button:hover {
+  background: #0056b3; 
+}
+
+.transaction-list {
+  margin-top: 20px;
+}
+
+.transaction-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-list li {
+  background: #2c2c2c; 
+  border: 1px solid #444; 
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.transaction-list .income {
+  color: #4caf50; 
+}
+
+.transaction-list .expense {
+  color: #f44336;
+}
+
+.delete-btn {
+  background: #f44336; 
+  color: #fff; 
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #c62828; 
+}
+
+.error {
+  color: #f44336; 
+  margin-top: 10px;
+}
